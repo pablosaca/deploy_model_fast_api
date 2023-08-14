@@ -1,0 +1,10 @@
+fastapi==0.101.1
+uvicorn[standard]==0.23.2
+requests==2.31.0
+htmltools==0.3.0
+joblib==1.2.0
+pandas==1.5.3
+numpy==1.24.3
+seaborn==0.12.2
+scikit-learn==1.2.2
+mdit_py_plugins==0.3.0
