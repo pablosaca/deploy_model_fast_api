@@ -1,6 +1,6 @@
 # Deploy Machine Learning model with FastAPI
 
-This repo consist of (https://fastapi.tiangolo.com/) library by Sebastián Ramírez (https://github.com/tiangolo). 
+This repo consist of a deployment a Machine Learning model using FastAPI (https://fastapi.tiangolo.com/) library by Sebastián Ramírez (https://github.com/tiangolo). 
 
 A web application to show the project structure for a deep learning model deployed using shiny has been developed.
 
@@ -41,6 +41,7 @@ uvicorn execute:app --reload
 ```
 
 and navigate to `http://127.0.0.1:8000/predict` to see it live. 
+I recommend the use of postman to check the correct operation of the api (https://www.postman.com/)
 
 The application may then be terminated with the following commands.
 
