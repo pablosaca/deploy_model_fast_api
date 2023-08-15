@@ -8,7 +8,7 @@ app = FastAPI(debug=True)
 
 
 @app.post('/predict')
-async def deploy_model(request: dict):
+def deploy_model(request: dict):
 
     try:
         # check errores en los inputs (nombres de las variables, formatos, etc)
